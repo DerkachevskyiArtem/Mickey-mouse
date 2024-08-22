@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.head {
+  position: relative;
+  top: 100px;
+  left: 100px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: black;
+  z-index: 1;
+}
+
+.ear {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.right {
+  top: -60px;
+  right: -60px;
+}
+
+.left {
+  top: -60px;
+  left: -60px;
+}
